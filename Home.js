@@ -7,7 +7,7 @@ const Home = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text>Welocome</Text>
-      <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Registerr')}>
+      <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Register')}>
         <Text>Register</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Login')}>
